@@ -16,6 +16,24 @@
     font-weight: 400;
 }
 
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: #d1d1d1;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .2) inset;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(180deg, #34B697 0%, #25CE69 100%);
+    border-radius: 9px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Manrope';
     margin: 0;
@@ -210,7 +228,7 @@ header nav{
     position: relative;
     margin-top: 38px;
     width: 900px;
-    height: 628.62px;
+    height: 600.12px;
 }
 
 .gallery__content p{
@@ -220,15 +238,13 @@ header nav{
 }
 
 .gallery__slide{
-    height: 628.63px;
+    height: 600.12px;
     width: 900px;
     display: none;
 }
 
 .gallery__slide.active{
-    display: flex;
-    flex-direction: column;
-    gap: 7px;
+    display: block;
 }
 
 .gallery__slide img{
