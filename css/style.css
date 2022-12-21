@@ -731,6 +731,21 @@ button{
         justify-content: center;
         row-gap: 10px;
     }
+    .contact__info{
+        padding-top: 0;
+        margin: 0 auto;
+        justify-content: center;
+        text-align: center;
+    }
+    .maps{
+        margin: 0 auto;
+    }
+    .emails, .calls{
+        justify-content: center;
+    }
+    .footer__nav{
+        justify-content: center;
+    }
 }
 
 /* Small: 576px - 767px */
