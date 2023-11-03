@@ -95,11 +95,15 @@ h5{
 }
 
 h6{
+    display: flex;
+    justify-content: center;
+    min-height: 54px;
+    align-items: center;
     font-weight: 500;
     font-size: 20px;
     line-height: 27px;
     text-transform: uppercase;
-    text-align: center;  
+    text-align: center;
     color: #000000;
 }
 
@@ -354,10 +358,13 @@ video{
 }
 
 .news__block p{
+    max-height: 115px;
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
     text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .dots__wrapper{
@@ -792,6 +799,9 @@ button{
     h2{
         line-height: 39px;
         font-size: 32px;
+    }
+    h6 {
+        min-height: 81px;
     }
     .gallery__content{
         margin-top: 15px;
